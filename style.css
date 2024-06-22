@@ -1,0 +1,150 @@
+/* This is the project stylesheet */
+
+:root {
+  /* Colors */
+  --black: rgba(0, 0, 0, 1);
+  --dim-gray: rgba(86, 86, 86, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  /* Typographies */
+  /* body-text */
+  --body-text-family: "Inter";
+  --body-text-size: 20px;
+  --body-text-weight: 500;
+  --body-text-line-height: 30px;
+
+  /* inter-24-medium */
+  --inter-24-medium-family: "Inter";
+  --inter-24-medium-size: 24px;
+  --inter-24-medium-weight: 500;
+  --inter-24-medium-line-height: 36px;
+
+  /* inter-32-semi-bold */
+  --inter-32-semi-bold-family: "Inter";
+  --inter-32-semi-bold-size: 32px;
+  --inter-32-semi-bold-weight: 600;
+  --inter-32-semi-bold-line-height: 48px;
+
+  /* subheading */
+  --subheading-family: "Inter";
+  --subheading-size: 24px;
+  --subheading-weight: 400;
+  --subheading-line-height: 36px;
+
+  /* title */
+  --title-family: "Inter";
+  --title-size: 64px;
+  --title-weight: 700;
+  --title-line-height: normal;
+}
+
+.main {
+  background-color: var(--white);
+  padding: 0 0 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.glavnaja {
+  cursor: pointer;
+}
+
+.items a {
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.items p {
+  margin: 0; 
+}
+
+.items p {
+  transition: transform 0.3s ease, color 0.3s ease; 
+
+  color: var(--black);
+}
+
+.items p:hover {
+  transform: scale(0.9); 
+
+  color: #410093;;
+}
+
+.navigation {
+  background-color: var(--white);
+  padding: 56px 80px 58px 54px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 50px;
+  align-self: stretch;
+}
+.pc-wiki {
+  color: var(--black);
+  margin-top: 2px;
+  margin-left: 18px;
+  font-family: var(--inter-32-semi-bold-family);
+  font-size: var(--inter-32-semi-bold-size);
+  font-weight: var(--inter-32-semi-bold-weight);
+  line-height: var(--inter-32-semi-bold-line-height);
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.glavnaja {
+  color: var(--black);
+  font-family: var(--body-text-family);
+  font-size: var(--body-text-size);
+  font-weight: var(--body-text-weight);
+  line-height: var(--body-text-line-height);
+}
+.glavnaja:not(:last-of-type) {
+  margin-right: 48px;
+}
+.dfbd030ab48ee9d5fd3e42645a7faa25e10eefa0 {
+  width: 1440px;
+  height: 359px;
+  margin: 0 auto;
+}
+.copy {
+  margin-bottom: 26px;
+  margin-left: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pro-nash-sajt {
+  color: var(--black);
+  align-self: stretch;
+  margin-bottom: 24px;
+  letter-spacing: -1.28px;
+  font-family: var(--title-family);
+  font-size: var(--title-size);
+  font-weight: var(--title-weight);
+  line-height: var(--title-line-height);
+}
+.ischite-sovety-po-komplektacii-kak-vybrat {
+  color: var(--dim-gray);
+  margin-right: 460px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  font-family: var(--subheading-family);
+  font-size: var(--subheading-size);
+  font-weight: var(--subheading-weight);
+  line-height: var(--subheading-line-height);
+}
+.paragraph {
+  max-width: 836px;
+  width: 58.06%;
+  color: var(--black);
+  margin-left: 302px;
+  margin-top: 10px;
+  font-family: var(--inter-24-medium-family);
+  font-size: var(--inter-24-medium-size);
+  font-weight: var(--inter-24-medium-weight);
+  line-height: var(--inter-24-medium-line-height);
+}

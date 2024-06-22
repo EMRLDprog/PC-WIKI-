@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complectation</title>
+</head>
+
+<link rel="stylesheet" href="./style3.css" />
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  </style>
+
+<body>
+    <div class="comp">
+        <div class="navigation">
+          <p class="pc-wiki">PC&amp;WIKI</p>
+          <div class="items">
+            <p class="glavnaja" id="MainLink">ГЛАВНАЯ</p>
+            <p class="glavnaja" id="OnasLink">О НАС</p>
+            <p class="glavnaja">КОМПЛЕКТУЮЩИЕ</p>
+            <p class="glavnaja">ЧАТ</p>
+          </div>
+        </div>
+
+        <script>
+          document.getElementById("OnasLink").addEventListener("click", function() {
+              window.location.href = "aboutus";
+          
+          });
+          document.getElementById("MainLink").addEventListener("click", function() {
+              window.location.href = "main";
+          
+          });
+        </script>
+
+        <div class="relative-wrapper-one">
+          <div class="article-title">
+            <p class="komplektujuschie">Комплектующие</p>
+            <p
+              class="pravil-no-podobrannye-komplektujuschie-igra"
+            >
+              Правильно подобранные комплектующие играют ключевую
+              роль в обеспечении долговечности и эффективности
+              компьютерной системы. При выборе оптимальных
+              комплектующих необходимо учитывать их совместимость,
+              качество, производительность и надежность. Каждый
+              компонент, начиная от процессора и заканчивая
+              видеокартой, должен быть грамотно подобран с учетом
+              требований задач, которые будет выполнять
+              компьютер.<br />
+              <br />
+              Более того, правильно подобранные комплектующие
+              могут существенно повысить эффективность работы
+              компьютера, обеспечивая быструю загрузку приложений,
+              плавную работу мультимедийных программ и высокую
+              производительность при выполнении сложных задач.
+            </p>
+          </div>
+          <img
+            alt=""
+            class="pc"
+            src="https://static.overlay-tech.com/assets/79e5c947-0251-43c4-98d6-013233cb365a.png"
+          />
+
+          <div class="center">
+            <div class="carousel-wrapper">
+              <!-- abstract radio buttons for slides -->
+              <input id="slide1" type="radio" name="controls" checked="checked" />
+              <input id="slide2" type="radio" name="controls" />
+              <input id="slide3" type="radio" name="controls" />
+              <input id="slide4" type="radio" name="controls" />
+              <input id="slide5" type="radio" name="controls" />
+          
+              <!-- navigation dots -->
+              <label for="slide1" class="nav-dot"></label>
+              <label for="slide2" class="nav-dot"></label>
+              <label for="slide3" class="nav-dot"></label>
+              <label for="slide4" class="nav-dot"></label>
+              <label for="slide5" class="nav-dot"></label>
+          
+              <!-- arrows -->
+              <label for="slide1" class="left-arrow"> < </label>
+              <label for="slide2" class="left-arrow"> < </label>
+              <label for="slide3" class="left-arrow"> < </label>
+              <label for="slide4" class="left-arrow"> < </label>
+              <label for="slide5" class="left-arrow"> < </label>
+          
+              <label for="slide1" class="right-arrow"> > </label>
+              <label for="slide2" class="right-arrow"> > </label>
+              <label for="slide3" class="right-arrow"> > </label>
+              <label for="slide4" class="right-arrow"> > </label>
+              <label for="slide5" class="right-arrow"> > </label>
+          
+              <div class="carousel">
+                <ul>
+                  <li>
+                    <img src="image1.jpg">
+                  </li>
+                  <li>
+                    <img src="image2.jpg">
+                  </li>
+                  <li>
+                    <img src="image3.jpg">
+                  </li>
+                  <li>
+                    <img src="image4.jpg">
+                  </li>
+                  <li>
+                    <img src="image5.jpg">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+</body>
+</html>

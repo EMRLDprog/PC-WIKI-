@@ -1,0 +1,238 @@
+/* This is the project stylesheet */
+
+:root {
+    /* Colors */
+    --black: rgba(0, 0, 0, 1);
+    --dim-gray: rgba(86, 86, 86, 1);
+    --white: rgba(255, 255, 255, 1);
+  
+    /* Typographies */
+    /* body-text */
+    --body-text-family: "Inter";
+    --body-text-size: 20px;
+    --body-text-weight: 500;
+    --body-text-line-height: 30px;
+  
+    /* inter-24-medium */
+    --inter-24-medium-family: "Inter";
+    --inter-24-medium-size: 24px;
+    --inter-24-medium-weight: 500;
+    --inter-24-medium-line-height: 36px;
+  
+    /* inter-32-semi-bold */
+    --inter-32-semi-bold-family: "Inter";
+    --inter-32-semi-bold-size: 32px;
+    --inter-32-semi-bold-weight: 600;
+    --inter-32-semi-bold-line-height: 48px;
+  
+    /* subheading */
+    --subheading-family: "Inter";
+    --subheading-size: 24px;
+    --subheading-weight: 400;
+    --subheading-line-height: 36px;
+  
+    /* title */
+    --title-family: "Inter";
+    --title-size: 64px;
+    --title-weight: 700;
+    --title-line-height: normal;
+  }
+
+  .main {
+    background-color: var(--white);
+    padding: 0 0 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .glavnaja {
+    cursor: pointer;
+}
+
+  .items a {
+    text-decoration: none; 
+    display: inline-block; 
+  }
+  
+  .items p {
+    margin: 0; 
+  }
+  
+  .items p {
+    transition: transform 0.3s ease, color 0.3s ease; 
+  
+    color: var(--black);
+  }
+  
+  .items p:hover {
+    transform: scale(0.9); 
+  
+    color: #410093;;
+  }
+  
+  .navigation {
+    height: calc(19.18% - 114px);
+    background-color: var(--white);
+    margin-bottom: 35px;
+    padding: 56px 80px 58px 54px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+  .pc-wiki {
+    color: var(--black);
+    margin-top: 2px;
+    margin-left: 18px;
+    font-family: var(--inter-32-semi-bold-family);
+    font-size: var(--inter-32-semi-bold-size);
+    font-weight: var(--inter-32-semi-bold-weight);
+    line-height: var(--inter-32-semi-bold-line-height);
+  }
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .glavnaja {
+    color: var(--black);
+    font-family: var(--body-text-family);
+    font-size: var(--body-text-size);
+    font-weight: var(--body-text-weight);
+    line-height: var(--body-text-line-height);
+  }
+  .glavnaja:not(:last-of-type) {
+    margin-right: 48px;
+  }
+  .flex-wrapper-one {
+    margin-bottom: 29px;
+    padding: 0 0 0 80px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .headline {
+    margin-top: 45px;
+    margin-right: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .o-nas {
+    color: var(--black);
+    align-self: stretch;
+    margin-bottom: 24px;
+    letter-spacing: -1.28px;
+    font-family: var(--title-family);
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    line-height: var(--title-line-height);
+  }
+  .opisanie-nashej-malen-koj-no-sil-noj-koma {
+    color: rgba(130, 130, 130, 1);
+    align-self: stretch;
+    margin-bottom: 24px;
+    font-family: var(--subheading-family);
+    font-size: var(--subheading-size);
+    font-weight: var(--subheading-weight);
+    line-height: var(--subheading-line-height);
+  }
+  .paragraph {
+    align-self: stretch;
+    color: var(--black);
+    font-family: var(--subheading-family);
+    font-size: var(--subheading-size);
+    font-weight: var(--subheading-weight);
+    line-height: var(--subheading-line-height);
+  }
+  .paragraph-emphasis-0 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: var(--black);
+  }
+  .maxresdefault-1-1 {
+    width: 626px;
+    height: 538px;
+    margin-right: 80px;
+  }
+  .navigation-footer {
+    background-color: var(--white);
+    overflow: hidden;
+    padding: 1px 80px 21px 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    position: relative;
+  }
+  .social-icons {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 80px;
+    top: 176px;
+  }
+  .buttons-icon {
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .buttons-icon:not(:last-of-type) {
+    margin-right: 8px;
+  }
+  .icon-two {
+    padding: 2.04px 2px;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    width: 20px;
+    height: 19.92px;
+  }
+  .icon-four {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+  }
+  .icon-three {
+    width: 18px;
+    height: 18px;
+  }
+  .icon-six {
+    padding: 5px 2px;
+    display: flex;
+    align-items: center;
+  }
+  .icon-five {
+    width: 20px;
+    height: 14px;
+  }
+  .icon-eight {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+  }
+  .icon-seven {
+    width: 20px;
+    height: 20px;
+  }
+  .divider {
+    height: 1px;
+    background-color: rgba(230, 230, 230, 1);
+    margin-bottom: 18px;
+    margin-left: 4px;
+    align-self: stretch;
+  }
+  .pc-wiki-two {
+    color: var(--black);
+    font-family: var(--inter-32-semi-bold-family);
+    font-size: var(--inter-32-semi-bold-size);
+    font-weight: var(--inter-32-semi-bold-weight);
+    line-height: var(--inter-32-semi-bold-line-height);
+
+  }

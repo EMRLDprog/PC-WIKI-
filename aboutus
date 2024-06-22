@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+
+<link rel="stylesheet" href="./style2.css" />
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    </style>
+
+
+<body>
+
+  <div class="aboutus">
+    <div class="navigation">
+        <p class="pc-wiki">PC&amp;WIKI</p>
+        <div class="items">
+            <p class="glavnaja" id="glavnajaLink">ГЛАВНАЯ</p>
+            <p class="glavnaja">О НАС</p>
+            <p class="glavnaja"id="CompLink">КОМПЛЕКТУЮЩИЕ</p>
+            <p class="glavnaja">ЧАТ</p>
+        </div>
+    </div>
+</div>
+
+<script>
+  document.getElementById("glavnajaLink").addEventListener("click", function() {
+      window.location.href = "main";
+  });
+  document.getElementById("CompLink").addEventListener("click", function() {
+        window.location.href = "complectation";
+    });
+</script>
+
+        <div class="flex-wrapper-one">
+          <div class="headline">
+            <p class="o-nas">О нас</p>
+            <p class="opisanie-nashej-malen-koj-no-sil-noj-koma">
+              Описание нашей маленькой но сильной команды
+            </p>
+            <p class="paragraph">
+              <strong class="paragraph-emphasis-0"
+                >BreakingBad</strong
+              >
+              - Мы команда из двух студентов с огромными амбициями
+              в области создания сайтов и программирования.
+              Несмотря на то, что мы только начинающие, мы
+              стремимся к совершенству в наших проектах и готовы
+              учиться и развиваться, чтобы достичь успеха в мире
+              веб-разработки и программирования и постройках пк.
+            </p>
+          </div>
+          <img
+            alt=""
+            class="maxresdefault-1-1"
+            src="https://static.overlay-tech.com/assets/eb33ce5a-3728-4b34-b247-330afa834fca.png"
+          />
+        </div>
+        <div class="navigation-footer">
+          <div class="social-icons">
+            <div class="buttons-icon">
+              <div class="icon-two">
+                <img
+                  alt=""
+                  class="icon"
+                  src="https://via.placeholder.com/20x19.92"
+                />
+              </div>
+            </div>
+            <div class="buttons-icon">
+              <div class="icon-four">
+                <img
+                  alt=""
+                  class="icon-three"
+                  src="https://via.placeholder.com/18x18"
+                />
+              </div>
+            </div>
+            <div class="buttons-icon">
+              <div class="icon-six">
+                <img
+                  alt=""
+                  class="icon-five"
+                  src="https://via.placeholder.com/20x14"
+                />
+              </div>
+            </div>
+            <div class="buttons-icon">
+              <div class="icon-eight">
+                <img
+                  alt=""
+                  class="icon-seven"
+                  src="https://via.placeholder.com/20x20"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <p class="pc-wiki-two">PC&amp;WIKI</p>
+        </div>
+      </div>
+</body>
+</html>

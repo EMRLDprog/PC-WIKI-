@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+
+<link rel="stylesheet" href="./style.css" />
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  </style>
+
+<div class="main">
+  <div class="navigation">
+    <p class="pc-wiki">PC&amp;WIKI</p>
+    <div class="items">
+      <p class="glavnaja">ГЛАВНАЯ</p></a>
+      <p class="glavnaja" id="OnasLink">О НАС</p>
+      <p class="glavnaja"id="CompLink">КОМПЛЕКТУЮЩИЕ</p>
+      <p class="glavnaja">ЧАТ</p>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("OnasLink").addEventListener("click", function() {
+        window.location.href = "aboutus";
+    
+    });
+    document.getElementById("CompLink").addEventListener("click", function() {
+        window.location.href = "complectation";
+    
+    });
+  </script>
+
+  <img
+    alt=""
+    class="dfbd030ab48ee9d5fd3e42645a7faa25e10eefa0"
+    src="https://static.overlay-tech.com/assets/27c677d5-a00f-4c37-99e4-ce503567da5a.png"
+  />
+  <div class="copy">
+    <p class="pro-nash-sajt">Про наш сайт</p>
+    <p class="ischite-sovety-po-komplektacii-kak-vybrat">
+      Ищите советы 
+      по комплектации, 
+      как выбрать правильные
+      комплектующие, что стоит учитывать при сборке пк?
+    </p>
+  </div>
+  <p class="paragraph">
+    Тогда вы нашли правильный сайт, добро пожаловать на наш
+    блог сайт PC&amp;WIKI, посвященном выбору комплектующих
+    для ПК, что поможет необходимыми шагами для
+    предоставления общей информации и рекомендаций в области
+    выборе комплектующих для вашего ПК. <br />
+    Наш проект может стать ценным ресурсом именно для вас,
+    кто ищет информацию по сборке компьютера, выбору лучших
+    комплектующих, советы по поддержанию производительности
+    в играх и многое другое.<br />
+    На нашем сайте представлены категории комплектующих для
+    ПК с полезными советами по выбору. Кроме того, у нас
+    имеется чат, где новички могут получить персональные
+    консультации и советы от опытных пользователей.
+  </p>
+</div>
